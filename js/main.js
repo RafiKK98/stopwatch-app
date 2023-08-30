@@ -31,6 +31,7 @@ document.getElementById('reset-btn').addEventListener('click', () => {
     minuteField.innerText = '00';
     hourField.innerText = '00';
     clearInterval(timer);
+    timer = false;
 });
 
 
